@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(21, 199, 21);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link-myfont{
+    color: #000000 !important;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.nav-link-myfont a:hover{
+    color: #c50f0ffa;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #000000;
+    text-decoration: none;
+    color: #d60c0c;
+    text-align: center;
+    justify-content: center;
+}
+
+span{
+    color: blue;
+}
+
+
+footer{
+    background-color: rgb(29, 31, 29);
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    color:#fff;
+    text-align: center;
+}
+footer .redes a{
+    color:  rgb(21, 199, 21);
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+.redes a:hover{
+    background-color: #000000;
+}
+
+
+.barrafooter{
+    position:absolute;
+    left: 0;
+    bottom: -180px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    }
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/mario-3631666.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imglink{
+    height: 50px;
+    width: 50px;
+}
+.img-1{
+    height: 190px;
+    width: 140px;
+    background-size: cover;
+}
+.img-2{
+    height: 190px;
+    width: 140px;
+    background-size: cover;
+}
+.img-3{
+    height: 190px;
+    width: 140px;
+    background-size: cover;
+}
+
+.galeria{
+    background-color: #00000071;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+    grid-gap: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    border: 1px  rgb(21, 199, 21);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    transition: all 0.5s;
+}
+
+.item:hover{
+    filter: grayscale(40%);
+    transform: scale(1.1);
+}
+
+.item1{
+    background-image: url(Imagenes/doom.jpg);
+}
+
+.item2{
+    background-image: url(Imagenes/grand\ theft\ auto.jpg);
+}
+.item3{
+    background-image: url(Imagenes/dark\ souls3\ xbox.jpg);
+}
+.item4{
+    background-image: url(Imagenes/bioshock.jpg);
+}
+.item5{
+    background-image: url(Imagenes/eleden\ ring.jpg);
+}
+.item6{
+    background-image: url(Imagenes/bloodborne.jpg);
+}
+.item7{
+    background-image: url(Imagenes/1644881648-1637878298-the-legend-of-zelda-breath-of-the-wild.jpg);
+}
+.item8{
+    background-image: url(Imagenes/Super-Smash-Bros.-Ultimate-Switch-EU.jpg);
+}
+.item9{
+    background-image: url(Imagenes/the-last-of-us-1-ps5-portada.jpg);
+}
+.item10{
+    background-image: url(Imagenes/mortal\ kombat\ 1.jpg);
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria-2{
+    background-color: #00000071;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows:repeat(2,300px);
+    justify-content: center;
+    grid-gap: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-1{
+    background-image: url(Imagenes/consola\ nintendo.jpg);
+}
+
+.item-2{
+    background-image: url(Imagenes/play\ 2.jpg);
+}
+.item-3{
+    background-image: url(Imagenes/play\ 4.jpg);
+}
+.item-4{
+    background-image: url(Imagenes/play\ 5.jpg);
+}
+.item-5{
+    background-image: url(Imagenes/xobx\ one.jpg);
+}
+.item-6{
+    background-image: url(Imagenes/xbox-360-console-and-logo.avif);
+}
+
+.c-item{
+    height: 700px;
+    width: auto;
+}
+
+.c-img{
+    height: 60%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+
+h5{
+    color:rgb(21, 199, 21);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.h5 {
+    color:rgb(21, 199, 21);
+}
+
+.carousel img{
+    margin: auto;
+    height: auto;
+}
+.carousel-item img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-caption p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}
+.call p{
+    margin-bottom: 20px;
+}
+
+.call a{
+    background-color: rgb(21, 199, 21);
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.call-2 {
+    color: #f8f3f3;
+    width: 400px;
+    border: 5px solid rgb(21, 199, 21);
+    padding: 10px;
+    background-color: hsla(0, 0%, 0%, 0.726);
+    margin: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translateX(-10%);
+    transform: translateY(-10%);
+}
+
+.call-2 p{
+    font-size: 30px;
+}
+/*
+main{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+form{
+    padding: 50px 55px;
+    box-shadow: 5 5 20px rgb(199, 21, 21);
+    border-radius: 40px;
+    text-align: center;
+    width: 340px;
+}
+
+h2{ 
+    display: flex;
+    height: 100px;
+    width: 100px;
+    color: green;
+    font-size: 40px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    color: chartreuse;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 17 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #f8f3f3;
+    border: 2px solid #f8f3f3;
+}
+
+textarea {
+    padding: 17 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #f8f3f3;
+}
+
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* Media Querries*/
+
+
+@media screen  and (min-width:320px) and (max-width:700px){
+    .galeria{
+        grid-template-columns: repeat(2,100px);
+        grid-template-rows: repeat(5,150px);
+    }
+    .header{
+        flex-direction: column;
+    }
+}
+@media screen  and (min-width:701px) and (max-width:1100px){
+    .galeria{
+        grid-template-columns: repeat(4,150px);
+        grid-template-rows: repeat(3,200px);
+    }
+}
+
+@media screen  and (min-width:320px) and (max-width:500px){
+    .galeria-2{
+        grid-template-columns: repeat(2,110px);
+        grid-template-rows: repeat(3,110px);
+    }
+    .header{
+        flex-direction: column;
+    }
+}
+@media screen  and (min-width:501px) and (max-width:600px){
+    .galeria-2{
+        grid-template-columns: repeat(2,150px);
+        grid-template-rows: repeat(3,150px);
+    }
+}
+
+@media screen  and (min-width:601px) and (max-width:700px){
+    .galeria-2{
+        grid-template-columns: repeat(2,200px);
+        grid-template-rows: repeat(3,200px);
+    }
+}
+
+@media screen  and (min-width:701px) and (max-width:900px){
+    .galeria-2{
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(2,200px);
+    }
+}
+
+@media screen  and (min-width:901px) and (max-width:1300px){
+    .galeria-2{
+        grid-template-columns: repeat(3,250px);
+        grid-template-rows: repeat(2,250px);
+    }
+}
+
+@media screen  and (min-width:1301px) and (max-width:1560px){
+    .galeria-2{
+        grid-template-columns: repeat(3,350px);
+        grid-template-rows: repeat(2,350px);
+    }
+}
+
+
+@media (max-width: 1662px) {
+    .call-2 {
+        width: 60%;
+        margin: 100px auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .call-2 {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .call-2 p {
+        font-size: 20px;
+    }
+}
