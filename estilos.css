@@ -94,20 +94,6 @@ main {
   background-size: cover;
 }
 
-.galeria {
-  background-color: rgba(0, 0, 0, 0.4431372549);
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(5, 200px);
-  grid-template-rows: repeat(2, 300px);
-  justify-content: center;
-  grid-gap: 20px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .item {
   border: 1px rgb(21, 199, 21);
   background-size: cover;
@@ -122,63 +108,49 @@ main {
 }
 
 .item1 {
-  background-image: url(Imagenes/doom.jpg);
+  background-image: url(Imagenes/img1.jpg);
 }
 
 .item2 {
-  background-image: url(Imagenes/grand\ theft\ auto.jpg);
+  background-image: url(Imagenes/img2.jpg);
 }
 
 .item3 {
-  background-image: url(Imagenes/dark\ souls3\ xbox.jpg);
+  background-image: url(Imagenes/img3.jpg);
 }
 
 .item4 {
-  background-image: url(Imagenes/bioshock.jpg);
+  background-image: url(Imagenes/img4.jpg);
 }
 
 .item5 {
-  background-image: url(Imagenes/eleden\ ring.jpg);
+  background-image: url(Imagenes/img5.jpg);
 }
 
 .item6 {
-  background-image: url(Imagenes/bloodborne.jpg);
+  background-image: url(Imagenes/img6.jpg);
 }
 
 .item7 {
-  background-image: url(Imagenes/1644881648-1637878298-the-legend-of-zelda-breath-of-the-wild.jpg);
+  background-image: url(Imagenes/img7.jpg);
 }
 
 .item8 {
-  background-image: url(Imagenes/Super-Smash-Bros.-Ultimate-Switch-EU.jpg);
+  background-image: url(Imagenes/img8.jpg);
 }
 
 .item9 {
-  background-image: url(Imagenes/the-last-of-us-1-ps5-portada.jpg);
+  background-image: url(Imagenes/img9.jpg);
 }
 
 .item10 {
-  background-image: url(Imagenes/mortal\ kombat\ 1.jpg);
+  background-image: url(Imagenes/img10.jpg);
 }
 
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.galeria-2 {
-  background-color: rgba(0, 0, 0, 0.4431372549);
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 500px);
-  grid-template-rows: repeat(2, 300px);
-  justify-content: center;
-  grid-gap: 20px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .item-1 {
@@ -335,7 +307,7 @@ textarea {
   text-align: center;
 }
 
-/* Media Querries*/
+/* Imports*/
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .galeria {
     grid-template-columns: repeat(2, 100px);
@@ -404,4 +376,32 @@ textarea {
   .call-2 p {
     font-size: 20px;
   }
+}
+/* Grid columns / Juegos / Consolas */
+.galeria {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.galeria-2 {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
 }/*# sourceMappingURL=estilos.css.map */
