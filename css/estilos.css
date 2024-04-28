@@ -37,8 +37,8 @@ footer {
   background-color: rgb(29, 31, 29);
   height: 100px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 20px;
   color: #fff;
+  justify-content: center;
   text-align: center;
 }
 
@@ -53,10 +53,11 @@ footer .redes a {
 }
 
 .barrafooter {
-  position: absolute;
+  position: flex;
   left: 0;
   bottom: -180px;
   width: 100%;
+  justify-content: center;
   text-align: center;
   text-decoration: none;
 }
@@ -64,7 +65,7 @@ footer .redes a {
 main {
   height: 100vh;
   width: 100%;
-  background-image: url(Imagenes/mario-3631666.svg);
+  background-image: url(/Imagenes/mario-3631666.svg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -104,47 +105,7 @@ main {
 
 .item:hover {
   filter: grayscale(40%);
-  transform: scale(1.1);
-}
-
-.item1 {
-  background-image: url(Imagenes/img1.jpg);
-}
-
-.item2 {
-  background-image: url(Imagenes/img2.jpg);
-}
-
-.item3 {
-  background-image: url(Imagenes/img3.jpg);
-}
-
-.item4 {
-  background-image: url(Imagenes/img4.jpg);
-}
-
-.item5 {
-  background-image: url(Imagenes/img5.jpg);
-}
-
-.item6 {
-  background-image: url(Imagenes/img6.jpg);
-}
-
-.item7 {
-  background-image: url(Imagenes/img7.jpg);
-}
-
-.item8 {
-  background-image: url(Imagenes/img8.jpg);
-}
-
-.item9 {
-  background-image: url(Imagenes/img9.jpg);
-}
-
-.item10 {
-  background-image: url(Imagenes/img10.jpg);
+  transform: scale(0.9);
 }
 
 .pagination {
@@ -153,50 +114,10 @@ main {
   align-items: center;
 }
 
-.item-1 {
-  background-image: url(Imagenes/consola\ nintendo.jpg);
-}
-
-.item-2 {
-  background-image: url(Imagenes/play\ 2.jpg);
-}
-
-.item-3 {
-  background-image: url(Imagenes/play\ 4.jpg);
-}
-
-.item-4 {
-  background-image: url(Imagenes/play\ 5.jpg);
-}
-
-.item-5 {
-  background-image: url(Imagenes/xobx\ one.jpg);
-}
-
-.item-6 {
-  background-image: url(Imagenes/xbox-360-console-and-logo.avif);
-}
-
-.c-item {
-  height: 700px;
-  width: auto;
-}
-
-.c-img {
-  height: 60%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  filter: brightness(0.9);
-}
-
 h5 {
   color: rgb(21, 199, 21);
   font-size: 40px;
   font-weight: bold;
-}
-
-.h5 {
-  color: rgb(21, 199, 21);
 }
 
 .carousel img {
@@ -206,13 +127,17 @@ h5 {
 
 .carousel-item img {
   max-width: 100%;
-  height: auto;
+  height: 80%;
 }
 
 .carousel-caption p {
-  color: rgb(255, 255, 255);
+  color: rgb(253, 253, 253);
   font-size: 20px;
   font-weight: bold;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.3764705882);
 }
 
 .carousel-inner img {
@@ -238,24 +163,16 @@ h5 {
   padding: 10px;
   background-color: hsla(0, 0%, 0%, 0.726);
   margin: 100px;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  transform: translateX(-10%);
-  transform: translateY(-10%);
+  position: flex;
+  margin: auto;
+  margin-left: 50px;
+  transform: translate(-10%, -100%);
 }
 
 .call-2 p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
-/*
-main{
-    min-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
 form {
   padding: 50px 55px;
   box-shadow: 5 5 20px rgb(199, 21, 21);
@@ -308,10 +225,104 @@ textarea {
 }
 
 /* Imports*/
+/* Grid columns / Juegos / Consolas */
+.galeria {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.galeria-2 {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/*Imagenes Grid / Juegos / Consolas */
+.item1 {
+  background-image: url(/imagenes/img1.jpg);
+}
+
+.item2 {
+  background-image: url(/imagenes/img2.jpg);
+}
+
+.item3 {
+  background-image: url(/imagenes/img3.jpg);
+}
+
+.item4 {
+  background-image: url(/imagenes/img4.jpg);
+}
+
+.item5 {
+  background-image: url(/imagenes/img5.jpg);
+}
+
+.item6 {
+  background-image: url(/imagenes/img6.jpg);
+}
+
+.item7 {
+  background-image: url(/imagenes/img7.jpg);
+}
+
+.item8 {
+  background-image: url(/imagenes/img8.jpg);
+}
+
+.item9 {
+  background-image: url(/imagenes/img9.jpg);
+}
+
+.item10 {
+  background-image: url(/imagenes/img10.jpg);
+}
+
+.item-1 {
+  background-image: url(/imagenes/img-1.jpg);
+}
+
+.item-2 {
+  background-image: url(/imagenes/img-2.jpg);
+}
+
+.item-3 {
+  background-image: url(/imagenes/img-3.jpg);
+}
+
+.item-4 {
+  background-image: url(/imagenes/img-4.jpg);
+}
+
+.item-5 {
+  background-image: url(/imagenes/img-5.jpg);
+}
+
+.item-6 {
+  background-image: url(/imagenes/img-6.jpg);
+}
+
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .galeria {
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(5, 150px);
+    grid-template-columns: repeat(2, 90px);
+    grid-template-rows: repeat(5, 140px);
   }
   .header {
     flex-direction: column;
@@ -368,40 +379,28 @@ textarea {
     margin: 100px auto;
   }
 }
-@media (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .call-2 {
     width: 90%;
     padding: 5px;
+    transform: translate(-5%, -30%);
   }
   .call-2 p {
     font-size: 20px;
   }
 }
-/* Grid columns / Juegos / Consolas */
-.galeria {
-  background-color: rgba(0, 0, 0, 0.4431372549);
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(5, 200px);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 20px;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  box-sizing: border-box;
+@media (max-width: 1630px) {
+  .barrafooter {
+    bottom: -150px;
+  }
 }
-
-.galeria-2 {
-  background-color: rgba(0, 0, 0, 0.4431372549);
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 500px);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 20px;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  box-sizing: border-box;
+@media (max-width: 768px) {
+  .barrafooter {
+    bottom: -100px;
+  }
+}
+@media (max-width: 320px) {
+  .barrafooter {
+    bottom: -50px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
