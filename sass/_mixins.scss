@@ -1,0 +1,25 @@
+
+/* Grid columns / Juegos / Consolas */
+@mixin sizes ($bg, $width, $height, $display, $columns, $rows, $gap, $margin, $padding){
+    background-color: $bg;
+    width: $width;
+    height: $height;
+    display: $display;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    grid-gap: $gap;
+    margin: $margin;
+    padding: $padding;
+}
+
+.galeria {
+    @include sizes (#00000071, 100%, auto, grid, repeat(5, 200px), repeat(2, 300px), 20px, 0, 0);
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.galeria-2 {
+    @include sizes(#00000071, 100%, auto, grid, repeat(3, 500px), repeat(2, 300px), 20px, 0, 0);
+    justify-content: center;
+    box-sizing: border-box;
+}
