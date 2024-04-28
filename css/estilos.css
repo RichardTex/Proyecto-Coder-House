@@ -225,35 +225,6 @@ textarea {
 }
 
 /* Imports*/
-/* Grid columns / Juegos / Consolas */
-.galeria {
-  background-color: rgba(0, 0, 0, 0.4431372549);
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(5, 200px);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 20px;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-.galeria-2 {
-  background-color: rgba(0, 0, 0, 0.4431372549);
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 500px);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 20px;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
 /*Imagenes Grid / Juegos / Consolas */
 .item1 {
   background-image: url(/imagenes/img1.jpg);
@@ -317,6 +288,35 @@ textarea {
 
 .item-6 {
   background-image: url(/imagenes/img-6.jpg);
+}
+
+/* Grid columns / Juegos / Consolas */
+.galeria {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.galeria-2 {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 320px) and (max-width: 700px) {
